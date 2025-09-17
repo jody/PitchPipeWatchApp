@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PitchPipe Watch App.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64_32</string>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>100DE569CF17574C82171621CA9F2593B12DC04E</string>
+				<key>dateExpires</key>
+				<string>7/19/26</string>
+				<key>type</key>
+				<string>Cloud Managed Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>5A3NSS82K5.com.jodypaul.PitchPipeApp.watchkitapp</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>5A3NSS82K5</string>
+				<key>com.apple.security.application-groups</key>
+				<array>
+					<string>group.com.jodypaul.PitchPipeAppGrp</string>
+				</array>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>PitchPipe Watch App.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>d7a9c8af-c925-4350-b67b-36a55fb99cc6</string>
+				<key>dateExpires</key>
+				<string>7/19/26</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.jodypaul.PitchPipeApp.watchkitapp</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>5A3NSS82K5</string>
+				<key>name</key>
+				<string>Jody Paul</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0.1</string>
+		</dict>
+	</array>
+</dict>
+</plist>

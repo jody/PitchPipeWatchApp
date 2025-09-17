@@ -111,8 +111,6 @@
 				C88597732E635C710020DCD2 /* PitchPipe Watch App */,
 			);
 			name = "PitchPipe Watch App";
-			packageProductDependencies = (
-			);
 			productName = "PitchPipe Watch App";
 			productReference = C885976F2E635C710020DCD2 /* PitchPipe Watch App.app */;
 			productType = "com.apple.product-type.application";
@@ -134,8 +132,6 @@
 				C88597812E635C720020DCD2 /* PitchPipe Watch AppTests */,
 			);
 			name = "PitchPipe Watch AppTests";
-			packageProductDependencies = (
-			);
 			productName = "PitchPipe Watch AppTests";
 			productReference = C885977E2E635C720020DCD2 /* PitchPipe Watch AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,8 +153,6 @@
 				C885978B2E635C720020DCD2 /* PitchPipe Watch AppUITests */,
 			);
 			name = "PitchPipe Watch AppUITests";
-			packageProductDependencies = (
-			);
 			productName = "PitchPipe Watch AppUITests";
 			productReference = C88597882E635C720020DCD2 /* PitchPipe Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -392,6 +386,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "PitchPipe Watch App/PitchPipe Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5A3NSS82K5;
@@ -405,15 +402,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jodypaul.PitchPipe.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
 			};
 			name = Debug;
 		};
@@ -422,6 +420,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "PitchPipe Watch App/PitchPipe Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5A3NSS82K5;
@@ -435,16 +436,17 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jodypaul.PitchPipe.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
 			};
 			name = Release;
 		};
@@ -457,7 +459,7 @@
 				DEVELOPMENT_TEAM = 5A3NSS82K5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jodypaul..PitchPipe-Watch-AppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jodypaul.PitchPipe-Watch-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -477,7 +479,7 @@
 				DEVELOPMENT_TEAM = 5A3NSS82K5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jodypaul..PitchPipe-Watch-AppTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jodypaul.PitchPipe-Watch-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -497,7 +499,7 @@
 				DEVELOPMENT_TEAM = 5A3NSS82K5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jodypaul..PitchPipe-Watch-AppUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jodypaul.PitchPipe-Watch-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -516,7 +518,7 @@
 				DEVELOPMENT_TEAM = 5A3NSS82K5;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jodypaul..PitchPipe-Watch-AppUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jodypaul.PitchPipe-Watch-AppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
