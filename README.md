@@ -1,4 +1,4 @@
-# PitchPipeWatchApp
+# Pitch Pipe Watch App
 A pitch-pipe app for Apple Watch 
 
 ## Documentation
