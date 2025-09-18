@@ -4,5 +4,39 @@
   </head>
   <body>
     <h1>PitchPipe App for Apple Watch</h1>
+    <h2>Alpha 1.0.1</h2>h2>
+    <h3>Usability:</h3>
+    <ul>
+      <li>Poor usability!</li>
+      <li>no instructions; non-obvious controls</li>
+      <li>Hints:
+        <ul>
+          <li>Area above Play button is scrollable to reveal additional controls</li>
+          <li>Clicking the multi-slider icon adds <em>Frequency</em> and <em>Volume</em> sliders below those controls</li>
+        </ul>
+      </li>
+    </ul>
+    <h3>Functionality:</h3>
+    <ul>
+      <li>Plays sine-wave tone</li>
+      <li>Default tone is A4 based at 440Hz</li>
+      <li>Button selectable notes: C4, D4, E4, F4, G4, A4, B4, C5</li>
+      <li>Pitch frequency is modifiable by a slider</li>
+      <li>Volume is modifiable by a slider</li>
+    </ul>
+    <h3>Known Issues:</h3>
+    <ul>
+      <li>See <em>Usability</em> above</li>
+      <li>Tones have "cyclic clicking" (not always apparent at A4=440)
+        <ul><li>
+          This likely reflects the loop-based tone construction not matching sampling length
+        </li></ul>
+      </li>
+    </ul>
+    <h3>Known Missing Functionality:</h3>
+    <ul>
+      <li>Allow chromatic (not just diatonic)</li>
+      <li>Greater range (not just C4 to C5)</li>
+    </ul>
   </body>
 </html>
