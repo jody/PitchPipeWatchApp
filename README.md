@@ -10,3 +10,6 @@ Multiple coding and genAI tools were used in development, including but not limi
 
 ## Pre-Releases
 - [v1.0.1-alpha](https://github.com/jody/PitchPipeWatchApp/releases/tag/v1.0.1-alpha)
+
+
+Copyright (c) 2025 Dr. Jody Paul
