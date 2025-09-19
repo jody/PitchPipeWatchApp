@@ -11,5 +11,6 @@ Multiple coding and genAI tools were used in development, including but not limi
 ## Pre-Releases
 - [v1.0.1-alpha](https://github.com/jody/PitchPipeWatchApp/releases/tag/v1.0.1-alpha)
 
+<hr />
 
-Copyright (c) 2025 Dr. Jody Paul
+PitchPipe Watch App is Copyright (c) 2025 by Dr. Jody Paul and licensed under [AGPL-3.0](LICENSE.md).
